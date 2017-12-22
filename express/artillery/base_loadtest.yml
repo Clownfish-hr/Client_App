@@ -1,11 +1,11 @@
-config:
-  target: "http://localhost:3000"
-  phases:
-  #  'arrivalRate' virtual users/second that last for 'duration' seconds
-    - duration: 600
-      arrivalRate: 1
-scenarios:
-  - name: "search listings"
-    flow:
-      - get:
-          url: "/"
+# config:
+#   target: "http://localhost:3000"
+#   phases:
+#   #  'arrivalRate' virtual users/second that last for 'duration' seconds
+#     - duration: 600
+#       arrivalRate: 1
+# scenarios:
+#   - name: "search listings"
+#     flow:
+#       - get:
+#           url: "/"
